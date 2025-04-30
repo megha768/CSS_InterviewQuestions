@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Day1</title>
+    <link type="text/css" rel="stylesheet" href="./Day1_IQ.css" /> <!__ Always include rel and href attribute__>
+</head>
+<body class="bodyc">
+
+    <h2>Q.1 - Difference between flex row and flex column.</h2>
+    <p>Ans. - The CSS FlexBox is a one dimensional layout. It is helpful in allocating and aligning the space among items in a container. It is done using <span>display:flex</span> property of CSS.</p>
+    <p> Flex row - <span>flex-direction:row;</span> It is a default value and is used to display items horizontally, as a row on a webpage.</p>
+
+    <div class="row-flex">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+    </div>
+    <p> Flex column - <span>flex-direction:column;</span> property is used to display items vertically, as a column on a webpage.</p>
+
+    <div class="column-flex">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+    </div>
+
+    <h2>Q.2 - Explain Inline, Internal and External Stylesheet.</h2>
+    <p>Ans. - There are three types of CSS - inline, internal and external that can be added to html documents.</p>
+    <p> Inline - by using <span>'style attribute'</span> inside opening tag of any element.</p>
+    <p>Internal - by using a <span>'style tag'</span> inside head tag. </p>
+    <p>External - by using a <span>'link tag'</span> inside head tag to link to an external CSS file. </p>
+
+    <h2>Q.3 - Justify-content allows you to do what?</h2>
+    <p>Ans. - It is used to align the flexible box container's item along the main axis of a flex container. This property manages space distribution between and around content items in a flex container.</p>
+    <p> It has following values :</p>
+    <p>flex-start : align flex items at the start of the container.</p>
+
+    <div class="start">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+
+    <p>flex-end : align flex items at the end of the container.</p>
+
+    <div class="end">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <p>center : align flex items at the center of the container.</p>
+
+    <div class="center">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <p>space-between : align items evenly with the first item at the start and last item at the end.</p>
+
+    <div class="space_between">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <p>space-around : align items evenly with the equal space around them.</p>
+
+    <div class="space_around">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    <p>space-evenly : align items with the equal space between them.</p>
+
+    <div class="space_evenly">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+
+    <h2>Q.4 - Difference between absolute and relative positioning.</h2>
+    <p>Ans. - Relative Positioning - <span>'position:relative;'</span> position an element relative to its normal position in the document flow. When we apply the top, right, bottom, left properties, the element shifts from its original position.However, the space it originally occupy remains reserved in the document.</p>
+
+    <div class="">
+        <div class="box1 relative1"></div>
+        <div class="box2 relative2"></div>
+    </div>
+    <p> Absolute positioning - <span>'position:absolute;'</span> position element relative to its nearest positioned ancestor, or to the initial containing block if there is no positioned ancestor. Absolute positioned elements are removed from the normal document flow and can overlap other elements.</p>
+
+    <div class="container">
+        <div class="box1 absolute1"></div>
+        <div class="box2 absolute2"></div>
+    </div>
+
+    <h2 class="marginc">Q.5 - What is the z-index in CSS?</h2>
+    <p>Ans. - CSS z-index property is used to control the stacking order of overlapping elements, which decides whether an element appears on top or behind others based on their assigned value.
+    Each element's position along the imaginary z-axis is expressed as an interger(positive, negative, or zero).</p>
+
+    <div class="container">
+        <div class="box1 z-box1"></div>
+        <div class="box2 z-box2"></div>
+        <div class="box3 z-box3"></div>
+    </div>
+
+    <h2 class="marginc">Q.6 - What is the difference between padding and margin?</h2>
+    <p>Ans. - Margin - Margin provides space outside an element, creating distance between it and other elements or the page's edges.</p>
+    <p>Padding - Padding provides space inside an element separating its content from its border.</p>
+
+</body>
+</html>

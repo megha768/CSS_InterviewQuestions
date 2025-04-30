@@ -1,0 +1,143 @@
+.bodyc{
+    margin:30px;
+}
+h2{
+    color:darkgreen;
+}
+p{
+    font-size:larger;
+    line-height:40px;
+    color:firebrick;
+}
+span{
+    background-color:yellow;
+}
+.row-flex{
+    display:flex;
+    justify-content:center;
+    background-color:antiquewhite;
+}
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.card1{
+    height:100px;
+    width:100px;
+    background-color:forestgreen;
+    margin:10px;
+    border-radius:15px;
+}
+.card2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card3 {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    margin: 10px;
+    border-radius: 15px;
+}
+.start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+}
+.end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: antiquewhite;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+.space_between {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.space_around {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+.space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.box1 {
+    height: 50px;
+    width: 50px;
+    background-color: forestgreen;
+    margin: 10px;
+    border-radius: 15px;
+}
+.box2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 15px;
+}
+.box3 {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 15px;
+}
+.relative1{
+    position:relative;
+    left:100px;
+}
+.relative2 {
+    position: relative;
+    left: 200px;
+    bottom:30px;
+}
+.container {
+    position: relative;
+}
+.absolute1{
+    position:absolute;
+    left:100px;
+    top:20px;
+}
+.absolute2 {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+}
+.marginc{
+    margin-top:170px;
+}
+.z-box1 {
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    z-index: 3;
+    border-radius: 15px;
+}
+.z-box2 {
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    z-index: 2;
+    border-radius: 15px;
+}
+.z-box3 {
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    z-index: 1;
+    border-radius: 15px;
+}
