@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Interview Questions</title>
+    <link type="text/css" rel="stylesheet" href="./Day2_IQ.css" /> <!__ Always include rel and href attribute__>
+</head>
+<body>
+
+    <h1>Q.1 - What is box sizing?</h1>
+    <p>Ans. - The 'box-sizing' CSS property controls how the total width and height of an element is calculated. It has following values :</p>
+    <p>content-box - This is the initail and default value as specified by the CSS standard. The width and height properties include the content but does not include the padding, border or margin.</p>
+    <div class="box1">
+        width:200px;<br />
+        height:200px;<br />
+        margin:50px;<br />
+        padding:50px;<br />
+        border:1px solid;
+    </div>
+    <p>border-box - The width and height properties include the content, padding and border but do not include the margin.</p>
+    <div class="box2">
+        width: 200px;<br />
+        height: 200px;<br />
+        margin: 50px;<br />
+        padding: 50px;<br />
+        border:1px solid;<br />
+        box-sizing:border-box;
+    </div>
+
+    <h1>Q.2 - What is animation delay?</h1>
+    <p>
+        Ans. - The 'animation-delay' property in CSS specifies a delay before an animation starts. It defines how long the browser should wait before starting the animation after it has been applied to an element.
+        The animation-delay value is defined in milliseconds(ms) or seconds(s). Its default value is 0 seconds.
+    </p>
+    <h1 class="ani">Animation Delay</h1>
+
+    <h1>Q.3 - Which property you will use to merge cells vertically in grid?</h1>
+    <p>Ans. - 'grid-row: span n;' and 'grid-row-end:span n;' CSS property is used to merge cells vertically in a grid.</p>
+    <div class="main">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+    </div>
+
+    <h1>Q.4 - Which property you will use to merge cells horizontally in grid?</h1>
+    <p>Ans. - 'grid-column: span n;' and 'grid-column-end:span n;' CSS property is used to merge cells horizontally in a grid.</p>
+    <div class="main1">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col merge">3</div>
+    </div>
+
+    <h1>Q.5 - Expalin CSS Box Model.</h1>
+    <p>Ans. - The CSS Box Model defines how elements are sized, positioned and rendered on a webpage.</p>
+    <p>Box Model Component Layout :</p>
+    <p>Content - The area where text or other content is displayed.</p>
+    <p>Padding - Space between the content and the element's border.</p>
+    <p>Border - A frame that wraps around the padding and content.</p>
+    <p>Margin - Space between the element's border and neighbouring elements.</p>
+
+    <h1>Q.6 - What is the difference between display:none and visibility:hidden?</h1>
+    <p>Ans. - display:none - completely removes the element from the document layout, effectively deleting its space and re-adjusting other elements to fill the void.</p>
+    <p> visibility:hidden -  only makes the element invisible while preserving its space within the layout.</p>
+
+</body>
+</html>

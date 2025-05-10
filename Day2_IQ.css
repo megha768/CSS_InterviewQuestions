@@ -1,0 +1,82 @@
+h1{
+    color:green;
+}
+p{
+    font-size:larger;
+    line-height:30px;
+    color:crimson;
+}
+.box1{
+    width:200px;
+    height:200px;
+    margin:50px;
+    padding:50px;
+    border:1px solid;
+    background-color:cadetblue;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+    border:1px solid;
+    background-color: cadetblue;
+    box-sizing:border-box;
+    font-size:x-small;
+}
+.ani {
+    color: forestgreen;
+    position: relative;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 2ms;
+    animation-iteration-count: infinite;
+}
+@keyframes text{
+    from{
+        left:0px;
+    }
+    to{
+        left:200px;
+    }
+}
+.main{
+    margin:50px;
+    height:fit-content;
+    width:fit-content;
+    display:grid;
+    grid-template-columns:auto auto;
+/*    border:1px solid;*/
+}
+.one {
+    margin:5px;
+    padding:20px;
+    background-color: chocolate;
+}
+.two {
+    margin: 5px;
+    padding: 20px;
+    background-color: chocolate;
+    grid-row-end: span 2
+}
+.three {
+    margin: 5px;
+    padding: 20px;
+    background-color: chocolate;
+}
+.main1 {
+    margin: 50px;
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    /*    border:1px solid;*/
+}
+.col {
+    margin: 5px;
+    padding: 20px;
+    background-color: chocolate;
+}
+.merge{
+    grid-column:span 2;
+}

@@ -1,0 +1,119 @@
+h1 {
+    color: green;
+}
+.pie{
+    margin:10px 100px;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color:antiquewhite;
+    background-image:conic-gradient(red 0%,red 20%, green 20%, green 40%, blue 40%, blue 60%, purple 60%, purple 80%, grey 80%, grey 100%)
+}
+.transparency {
+    margin-left: 100px;
+    height: 400px;
+    width: 400px;
+    background-color:darkblue;
+    background:url(./newimage2.jpg);
+    background-size:cover;
+    opacity:0.3;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+.one {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    transition-duration: 1s;
+}
+.one:hover{
+    transform:rotate(80deg);
+}
+.two {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    transition-duration: 1s;
+}
+.two:hover {
+    transform: scale(2.5);
+}
+.three {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color:cadetblue;
+    color:purple;
+    text-align:center;
+    font-size: larger;
+    transition-duration: 1s;
+}
+.three:hover {
+    transform:skew(40deg,40deg);
+}
+.container3d {
+    display: flex;
+    justify-content: center;
+    perspective:300px;
+}
+.one3d {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+    .one3d:hover {
+        transform:rotate3d(1,2,1,90deg);
+    }
+
+.two3d {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+    .two3d:hover {
+        transform: scale3d(-2.5,-2.5,-2.5);
+    }
+
+.three3d {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+    .three3d:hover {
+        transform:translate3d(50px,50px,50px) ;
+    }
+.zaxis {
+    margin:50px 100px;
+    height: 100px;
+    width: 100px;
+    background-color: darksalmon;
+    transform: rotateZ(40deg);
+}
